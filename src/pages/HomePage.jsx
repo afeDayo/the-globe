@@ -15,7 +15,7 @@ const HomePage = ({
         <Search filterBySearch={filterBySearch} />
         <Dropdown filterByRegion={filterByRegion} />
       </div>
-      {loading && <div className="loader">🌎</div>}
+      {loading && <div className="loader">🌎🎈</div>}
       {!loading && <Countries allCountries={allCountries} />}
     </div>
   );
